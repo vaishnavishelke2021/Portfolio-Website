@@ -1,0 +1,190 @@
+/* font-family: 'Reem Kufi', sans-serif;                  heading  */
+/* font-family: 'Ubuntu', sans-serif;                   body  */
+/*        color:#DA0037;          */
+
+/* fimal >     bg -    #EDEDED 
+               main -  #7B113A  
+               Gray -  #444444 */
+
+
+               
+
+               *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body{
+                background-color: #EDEDED;
+            font-family: 'Quantico', sans-serif;}
+            
+            
+            
+            /* ---------------------------------------------navbar--------------------------------------------------------------- */
+            
+            #logo{
+                width: 3.4rem;
+                /* margin-left:4rem; */
+            }
+            
+            nav{
+                /* background-color: black; */
+                border-bottom: 2px solid #7B113A;
+            }
+            
+            #active-link{
+                color: #7B113A;
+                font-weight: 500;
+            }
+            
+            .navbar-nav li a{
+                color: #444444;
+                font-size: 1.3rem;
+                margin-left: 1.3rem;
+                font-weight: 500;
+            }
+            
+            .navbar-nav li a:hover{
+                color: #7B113A;
+                cursor: pointer;
+            }
+            
+            #dropdown{
+                font-size: 1rem;
+                background-color: #7B113A;
+                width: 12rem;
+                padding: 1rem;
+                
+            
+            }
+            
+            #dropdown li a{
+                font-size: 1rem;
+                color: aliceblue;
+                margin: 0px;
+            }
+            
+            #dropdown li a:hover{
+                color: #7B113A;
+                background-color: white;
+                border-radius: 3px;
+            }
+            
+            
+            
+            
+            
+/* ---------------------------------header------------------------------------------------------------------ */
+
+.heading{
+    color: #7B113A;
+    font-family: 'Reem Kufi', sans-serif; 
+    margin-top: 4rem;
+    font-weight: 500;
+}
+
+.description{
+    color: #444444;
+    font-size: 17px;
+}
+
+
+#projects{
+    margin-top: 4rem;
+    /* margin-bottom: 5rem; */
+}
+
+.card{
+    /* box-shadow: 1px 0.5px 10px; */
+    /* margin: 0%; */
+    padding: 0px;
+    /* height: 20rem; */
+    background-color: #EDEDED;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card h4{
+    color: #7B113A;
+    font-weight: 600;
+}
+
+.card img{
+    height: 13rem;
+    background-position: center;
+    object-fit: cover;
+}
+
+.card a{
+    background-color: #7B113A;
+    color: #EDEDED;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #7B113A;
+    margin-top: 1rem;
+}
+
+.card:hover{
+    background-color: #7B113A;
+    transition: ease-in 0.2s;
+    transform: scale(1.03);
+}
+
+.card:hover h4{
+    color: #EDEDED;
+}
+
+.card:hover p{
+    color: #ededed6b;
+}
+
+.card:hover a{
+    background-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    color: #7B113A;
+}
+
+.card a:hover{
+    background-color: #7B113A;
+    color: #EDEDED;
+    border: 1px solid #EDEDED;
+}
+
+
+
+/* -------------------------------------------------contact------------------------------------------ */
+
+#contact{
+    margin-top: 7rem;
+    background-color: #7B113A;
+    padding: 2rem;
+}
+
+#contact h2{
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+}
+
+#contact div{
+    margin-top: 1rem;
+}
+
+#contact div a i{
+    color: #ededed7c;
+    font-size: 1.5rem;
+    margin: 0.1rem 0.8rem;
+    transition: ease 0.3s;
+}
+
+#contact div a i:hover{
+    color: #EDEDED;
+    /* font-size: 2.4rem; */
+    transform: scale(1.4);
+}
+
+.copyright{
+    background-color: #EDEDED;
+    color: #444444;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,229 @@
+/* font-family: 'Reem Kufi', sans-serif;                  heading  */
+/* font-family: 'Ubuntu', sans-serif;                   body  */
+/*        color:#DA0037;          */
+
+/* fimal >     bg -    #EDEDED 
+               main -  #7B113A  
+               Gray -  #444444 */
+
+
+               
+
+               *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body{
+                background-color: #EDEDED;
+            font-family: 'Quantico', sans-serif;}
+            
+            
+            
+            /* ---------------------------------------------navbar--------------------------------------------------------------- */
+            
+            #logo{
+                width: 3.4rem;
+                /* margin-left:4rem; */
+            }
+            
+            nav{
+                /* background-color: black; */
+                border-bottom: 2px solid #7B113A;
+            }
+            
+            #active-link{
+                color: #7B113A;
+                font-weight: 500;
+            }
+            
+            .navbar-nav li a{
+                color: #444444;
+                font-size: 1.3rem;
+                margin-left: 1.3rem;
+                font-weight: 500;
+            }
+            
+            .navbar-nav li a:hover{
+                color: #7B113A;
+                cursor: pointer;
+            }
+            
+            #dropdown{
+                font-size: 1rem;
+                background-color: #7B113A;
+                width: 12rem;
+                padding: 1rem;
+                
+            
+            }
+            
+            #dropdown li a{
+                font-size: 1rem;
+                color: aliceblue;
+                margin: 0px;
+            }
+            
+            #dropdown li a:hover{
+                color: #7B113A;
+                background-color: white;
+                border-radius: 3px;
+            }
+            
+            
+            
+            
+            
+/* ---------------------------------header------------------------------------------------------------------ */
+
+.heading{
+    color: #7B113A;
+    font-family: 'Reem Kufi', sans-serif; 
+    margin-top: 5rem;
+    font-weight: 500;
+}
+
+.description{
+    color: #444444;
+    font-size: 17px;
+    margin-bottom: 6rem;
+}
+
+
+
+/* ---------------------------projects-------------------------------- */
+
+.projects{
+    /* margin-top: 1rem; */
+    margin-bottom: 3rem;
+    padding: 3rem 5rem;
+    border-radius: 20px;
+}
+
+.p1{
+    background-color: #0f174d;
+}
+
+#p-img img{
+    /* background-image: url(project/ui-cafe-nirvana/Frame\ 18.svg); */
+    /* height: 390px; */
+    max-height: 300px;
+    /* border: 1px solid rgb(4, 4, 66); */
+    border-radius: 9px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+
+    /* box-shadow: #7B113A 0px 0.4px 3px; */
+}
+
+#p-img img:hover{
+    transform: scale(1.2);
+    transition: ease 0.4s;
+}
+
+#p-text h2{
+ color: #EDEDED;
+ font-family: 'Reem Kufi', sans-serif; 
+ margin-top: 1.2rem;
+ margin-bottom: 1.2rem;
+}
+
+#p-text p{
+    /* background-color: #444444; */
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    color: #ededed95;
+    padding-bottom: 1.5rem;
+}
+
+
+#p-text a{
+    border: none;
+    /* margin-top: 4rem; */
+    background-color: #EDEDED;
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#p-text a:hover{
+    background-color: transparent;
+    color: #EDEDED;
+    border: 1px solid #EDEDED;
+}
+
+.b1{
+    color: #0f174d;
+}
+
+@media screen and (max-width:450px){
+    #p-text a{
+        font-size: 0.8rem;
+        /* margin-top: 0.7rem; */
+    }
+
+    #p-text p{
+        padding-bottom: 0.9rem;
+    }
+
+    #p-text h2{
+        font-size: 1.4rem;
+    }
+
+    #p-text p{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:991px){
+    .projects{
+        padding: 1.5rem 1rem;
+    }
+}
+
+.p2{
+    background-color: #FF5757;
+}
+
+.b2{
+    color: #FF5757;
+}
+
+
+
+
+/* -------------------------------------------------contact------------------------------------------ */
+
+#contact{
+    margin-top: 7rem;
+    background-color: #7B113A;
+    padding: 2rem;
+}
+
+#contact h2{
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+}
+
+#contact div{
+    margin-top: 1rem;
+}
+
+#contact div a i{
+    color: #ededed7c;
+    font-size: 1.5rem;
+    margin: 0.1rem 0.8rem;
+    transition: ease 0.3s;
+}
+
+#contact div a i:hover{
+    color: #EDEDED;
+    transform: scale(1.4);
+}
+
+.copyright{
+    background-color: #EDEDED;
+    color: #444444;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}

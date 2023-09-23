@@ -1,0 +1,162 @@
+/* font-family: 'Reem Kufi', sans-serif;                  heading  */
+/* font-family: 'Ubuntu', sans-serif;                   body  */
+/*        color:#DA0037;          */
+
+/* fimal >     bg -    #EDEDED 
+               main -  #7B113A  
+               Gray -  #444444 */
+
+
+               
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDEDED;
+font-family: 'Quantico', sans-serif;}
+
+
+
+/* ---------------------------------------------navbar--------------------------------------------------------------- */
+
+#logo{
+    width: 3.4rem;
+    /* margin-left:4rem; */
+}
+
+nav{
+    /* background-color: black; */
+    border-bottom: 2px solid #7B113A;
+}
+
+#active-link{
+    color: #7B113A;
+    font-weight: 500;
+}
+
+.navbar-nav li a{
+    color: #444444;
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+    font-weight: 500;
+}
+
+.navbar-nav li a:hover{
+    color: #7B113A;
+    cursor: pointer;
+}
+
+#dropdown{
+    font-size: 1rem;
+    background-color: #7B113A;
+    width: 12rem;
+    padding: 1rem;
+    
+
+}
+
+#dropdown li a{
+    font-size: 1rem;
+    color: aliceblue;
+    margin: 0px;
+}
+
+#dropdown li a:hover{
+    color: #7B113A;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* ---------------------------------header------------------------------------------------------------------ */
+
+#header{
+    margin-top: 6.8rem;
+}
+
+#header h1{
+    font-family: 'Reem Kufi', sans-serif;
+    color: #7B113A;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#header p{
+    margin-top: 2rem;
+    color: #444444;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+#header a{
+    background-color: #7B113A;
+    color: white;
+    border: 2px solid #7B113A;
+    margin-left: 0.5rem;
+    width: 9rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#header a i{
+    margin-left: 0rem;
+    margin-right: 0.4rem;
+    /* margin-top: 0.2rem; */
+}
+
+#header a:hover{
+    background-color: #444444;
+    color: #EDEDED;
+    border: 2px solid #444444;
+}
+
+#header-2{
+
+text-align: end;    margin-top: 7rem;
+}
+
+#header-2 i{
+    font-size: 2rem;
+    color: #7B113A;
+    margin-left: 3rem;
+}
+
+#header-2 i:hover{
+    cursor: pointer;
+    transition: ease 0.3s;
+    color: #444444;
+    transform: scale(1.3);
+}
+
+@media screen and (max-width:500px){
+    #header{
+        margin-top: 4rem;
+    }
+    #header h1{
+        font-size: 3rem;
+    }
+
+    #header-2{
+        /* border-top: 1px solid #7B113A; */
+        margin-top:3rem;
+        text-align: start;
+        margin-left: 0rem;
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    #header-2 i{
+        margin-right: 0rem;
+        margin-left: 1.6rem;
+        font-size: 1.7rem;
+    }
+    
+}
